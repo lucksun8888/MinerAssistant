@@ -1,0 +1,322 @@
+2021.04.05:10:47:55.680: main Phoenix Miner 5.5c Windows/msvc - Release build
+2021.04.05:10:47:55.680: main Cmd line: -pool cn.sparkpool.com:3333 -wal sp_lucksun888 -worker 002 -pass x -logfile C:\qskg\log\20210405_104755_ETH_log.txt -gbase 0 -tt -70 -coin eth -pool2 cn-backup.sparkpool.com:3333 -nvidia 
+2021.04.05:10:47:55.899: main CUDA version: 11.0, CUDA runtime: 8.0
+2021.04.05:10:47:55.899: main Available GPUs for mining:
+2021.04.05:10:47:55.899: main GPU0: GeForce RTX 2060 (pcie 1), CUDA cap. 7.5, 6 GB VRAM, 30 CUs
+2021.04.05:10:47:55.901: main NVML library initialized
+2021.04.05:10:47:55.906: main Nvidia driver version: 452.06
+2021.04.05:10:47:56.010: main Eth: Loading pools from epools.txt
+2021.04.05:10:47:56.010: main Eth: the pool list contains 2 pools (2 from command-line)
+2021.04.05:10:47:56.010: main Eth: primary pool: cn.sparkpool.com:3333
+2021.04.05:10:47:56.010: main Starting GPU mining
+2021.04.05:10:47:56.011: hwmc GPU0: unable to get fan speed - Not Supported (3)
+2021.04.05:10:47:56.063: hwmc NVAPI error in NvapiWrapper.c:986 : -104
+2021.04.05:10:47:56.114: wdog Starting watchdog thread
+2021.04.05:10:47:56.115: main Eth: Connecting to ethash pool cn.sparkpool.com:3333 (proto: EthProxy)
+2021.04.05:10:47:56.116: main GPU0: 39C 7W
+GPUs power: 7.1 W
+2021.04.05:10:47:56.151: eths Eth: Connected to ethash pool cn.sparkpool.com:3333 (203.107.33.230)
+2021.04.05:10:47:56.152: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"002","params":["sp_lucksun888","x"]}
+
+2021.04.05:10:47:56.227: eths Eth: Received: {"id":1,"jsonrpc":"2.0","result":true}
+2021.04.05:10:47:56.227: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"002","params":[]}
+
+2021.04.05:10:47:56.271: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xffcda375fb2ef2fafe7be044169567d16284f6b077eedbb8157e0fa80dc27929","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:47:56.272: eths Eth: New job #ffcda375 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:47:56.274: GPU0 GPU0: Starting up... (0)
+2021.04.05:10:47:56.274: GPU0 GPU0: Generating ethash light cache for epoch #405
+2021.04.05:10:47:56.319: main Listening for CDM remote manager at port 3333 in read-only mode
+2021.04.05:10:47:57.419: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x78f4c3f8978dab4e9c59d1fc2f6409475c75e3364a09e8916f22d6bc7394ca74","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:47:57.419: eths Eth: New job #78f4c3f8 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:47:57.512: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x8c1c70ed38b8d922c1fe518ee3431571d381f2a1fb8c0d0117226ec66d2d46cb","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:47:57.512: eths Eth: New job #8c1c70ed from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:47:58.930: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x52117968d090d161c9667cdad583fcaaee7278604ab8f841bb1fdf8d15448dce","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:47:58.930: eths Eth: New job #52117968 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:47:59.188: GPU0 Light cache generated in 2.9 s (22.9 MB/s)
+2021.04.05:10:48:00.515: GPU0 GPU0: Allocating DAG (4.18) GB; good for epoch up to #407
+2021.04.05:10:48:00.688: GPU0 GPU0: Generating DAG for epoch #405
+2021.04.05:10:48:01.132: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.04.05:10:48:01.311: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x9a268e259b2624e14cda5d3bb8b4e67a68467c04848312176bf03559960f20c0","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:48:01.311: eths Eth: New job #9a268e25 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:48:01.396: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x18fa458d9d18fd8aa1f0e42bbf83b9e36201fc9c573d40467faaa1e79bfd5865","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:48:01.396: eths Eth: New job #18fa458d from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:48:02.230: GPU0 GPU0: DAG   8%
+2021.04.05:10:48:02.869: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x2d2cc1836a5b2e2f360aba286b13d179f40548dbf29c0eec96b1034f2893d37a","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:48:02.869: eths Eth: New job #2d2cc183 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:48:03.760: GPU0 GPU0: DAG  17%
+2021.04.05:10:48:04.362: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x35447a9d669411e657ffaee81ea293c8dc2109b3490d67a3b177625114fd5499","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:48:04.362: eths Eth: New job #35447a9d from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:48:04.445: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x73a5b068b967716db6f4a1d2e7203272639ea87fa41c211e993ab041d833e6ed","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:48:04.445: eths Eth: New job #73a5b068 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:48:05.290: GPU0 GPU0: DAG  27%
+2021.04.05:10:48:05.863: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x547986f81d55ad7a66f700cdc9842101afefb47b6a2a34662621d8049a34f901","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:48:05.863: eths Eth: New job #547986f8 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:48:06.150: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.04.05:10:48:06.152: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"002","params":[]}
+
+2021.04.05:10:48:06.328: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x43ae707424e4e102f68f0f19bb833696a8e3ce49743b8c5e483d2d9db4df9433","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:48:06.328: eths Eth: New job #43ae7074 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:48:06.431: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xc1d6bd66314b7bdff82a747a517059c68c0122c9ed32d33c327f78a5d23fc149","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:48:06.431: eths Eth: New job #c1d6bd66 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:48:06.608: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xc1d6bd66314b7bdff82a747a517059c68c0122c9ed32d33c327f78a5d23fc149","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:48:06.820: GPU0 GPU0: DAG  36%
+2021.04.05:10:48:07.895: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x27ab3df04ba498a0102036c9fe36b400cda83d0ea7652092d31100a0302da5cf","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:48:07.895: eths Eth: New job #27ab3df0 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:48:08.351: GPU0 GPU0: DAG  45%
+2021.04.05:10:48:09.391: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x74b0cbe1886c52fe6543290b088334cb0bdbc3d89180709bab13bda6d173f4bf","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:48:09.391: eths Eth: New job #74b0cbe1 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:48:09.887: GPU0 GPU0: DAG  55%
+2021.04.05:10:48:10.887: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x4d64bf6ec8dca8d74609976e29487a1442665f93180f50af1aa6b24ee206b172","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:48:10.887: eths Eth: New job #4d64bf6e from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:48:11.177: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.04.05:10:48:11.418: GPU0 GPU0: DAG  64%
+2021.04.05:10:48:12.382: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x79affda51f51fa600244958f3dfed9865bfc7dff5084c8d6025e41f848210c35","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:48:12.383: eths Eth: New job #79affda5 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:48:12.948: GPU0 GPU0: DAG  73%
+2021.04.05:10:48:13.890: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x52f983968b66d0f0c3441125627a4dfe3b548adcbb0cee16cb271925e54af6b6","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:48:13.890: eths Eth: New job #52f98396 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:48:14.480: GPU0 GPU0: DAG  83%
+2021.04.05:10:48:15.383: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xb87dd1da1d39f3c161ef51b92d53e42daa5a07e8ac2ed38994779b2a53313fce","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:48:15.383: eths Eth: New job #b87dd1da from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:48:16.011: GPU0 GPU0: DAG  92%
+2021.04.05:10:48:16.152: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"002","params":[]}
+
+2021.04.05:10:48:16.152: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"002","params":["0x0","0x5da20e2ef708740d8f1ee7261d43bdb07a3c1583baeff85f643506e09cccc176"]}
+
+2021.04.05:10:48:16.207: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.04.05:10:48:16.565: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xb87dd1da1d39f3c161ef51b92d53e42daa5a07e8ac2ed38994779b2a53313fce","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:48:16.884: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xdc3a3944a2bc43d05c0d8f3530f2d784d4c74087e981be0572d440471298d8b3","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:48:16.884: eths Eth: New job #dc3a3944 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:48:17.066: GPU0 GPU0: DAG generated in 16.4 s (260.4 MB/s)
+2021.04.05:10:48:17.071: GPU0 GPU0: Using v2 Ethash CUDA kernels (GeForce RTX 2060)
+2021.04.05:10:48:17.074: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.04.05:10:48:18.387: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x0c816689d8123ee479ed4969062149c03d9d3b56533c8a27dc953157e371a8fa","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:48:18.387: eths Eth: New job #0c816689 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:48:21.230: main Eth speed: 21.566 MH/s, shares: 0/0/0, time: 0:00
+2021.04.05:10:48:22.997: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x72c4caeef3984ca19b2f174836468ad03cb4661c52be3d38a66d7994465d058b","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:48:22.997: eths Eth: New job #72c4caee from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:48:22.997: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x4f3b216b211bbd5795ad20099b79dfd645ba1b479ba1067d8dec8b94bc6de043","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:48:22.997: eths Eth: New job #4f3b216b from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:48:22.997: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x3f8aa5ffeff0986596287861ad212626f1bf540ca55067f2d2a65b2b36cf2906","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:48:22.998: eths Eth: New job #3f8aa5ff from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:48:24.389: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x3fcc8a5584492254fdfae2cb138a77ad85b0883f8420f47d5421f9639fc4957a","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:48:24.389: eths Eth: New job #3fcc8a55 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:48:25.885: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x6c4dfd63c45e41ed5be687dcb757293eb582b7c4a611b5de4cb093b6a0bf11a4","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:48:25.885: eths Eth: New job #6c4dfd63 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:48:26.119: hwmc GPU0: unable to get fan speed - Not Supported (3)
+2021.04.05:10:48:26.153: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"002","params":[]}
+
+2021.04.05:10:48:26.263: main Eth speed: 21.569 MH/s, shares: 0/0/0, time: 0:00
+2021.04.05:10:48:26.263: main GPU0: 59C 79W
+GPUs power: 78.8 W
+2021.04.05:10:48:27.383: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x739e6585b2fdc816b05089114b5337dd542f39332d94ab0a267edfaf3d9a2166","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:48:27.383: eths Eth: New job #739e6585 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:48:31.295: main Eth speed: 21.569 MH/s, shares: 0/0/0, time: 0:00
+2021.04.05:10:48:36.154: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"002","params":[]}
+
+2021.04.05:10:48:36.154: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"002","params":["0x1491f4f","0x5da20e2ef708740d8f1ee7261d43bdb07a3c1583baeff85f643506e09cccc176"]}
+
+2021.04.05:10:48:36.326: main Eth speed: 21.570 MH/s, shares: 0/0/0, time: 0:00
+2021.04.05:10:48:41.159: main  
+2021.04.05:10:48:41.159: main *** 0:00 *** 4/5 10:48 **************************************
+2021.04.05:10:48:41.159: main Eth: Mining ETH on cn.sparkpool.com:3333 for 0:00
+2021.04.05:10:48:41.159: main Eth: Accepted shares 0 (0 stales), rejected shares 0 (0 stales)
+2021.04.05:10:48:41.159: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.04.05:10:48:41.159: main Eth: Average speed (5 min): 21.570 MH/s
+2021.04.05:10:48:41.159: main  
+2021.04.05:10:48:41.174: hwmc NVAPI error in NvapiWrapper.c:986 : -104
+2021.04.05:10:48:41.362: main Eth speed: 21.570 MH/s, shares: 0/0/0, time: 0:00
+2021.04.05:10:48:46.154: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"002","params":[]}
+
+2021.04.05:10:48:46.395: main Eth speed: 21.571 MH/s, shares: 0/0/0, time: 0:00
+2021.04.05:10:48:51.423: main Eth speed: 21.570 MH/s, shares: 0/0/0, time: 0:00
+2021.04.05:10:48:56.155: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"002","params":[]}
+
+2021.04.05:10:48:56.155: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"002","params":["0x1492087","0x5da20e2ef708740d8f1ee7261d43bdb07a3c1583baeff85f643506e09cccc176"]}
+
+2021.04.05:10:48:56.227: hwmc GPU0: unable to get fan speed - Not Supported (3)
+2021.04.05:10:48:56.253: main GPU0: 66C 80W
+GPUs power: 80.3 W
+2021.04.05:10:48:56.455: main Eth speed: 21.569 MH/s, shares: 0/0/0, time: 0:01
+2021.04.05:10:49:01.574: main Eth speed: 21.570 MH/s, shares: 0/0/0, time: 0:01
+2021.04.05:10:49:06.157: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"002","params":[]}
+
+2021.04.05:10:49:06.601: main Eth speed: 21.569 MH/s, shares: 0/0/0, time: 0:01
+2021.04.05:10:49:11.631: main Eth speed: 21.570 MH/s, shares: 0/0/0, time: 0:01
+2021.04.05:10:49:16.157: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"002","params":[]}
+
+2021.04.05:10:49:16.157: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"002","params":["0x149208c","0x5da20e2ef708740d8f1ee7261d43bdb07a3c1583baeff85f643506e09cccc176"]}
+
+2021.04.05:10:49:16.662: main Eth speed: 21.629 MH/s, shares: 0/0/0, time: 0:01
+2021.04.05:10:49:21.697: main Eth speed: 23.016 MH/s, shares: 0/0/0, time: 0:01
+2021.04.05:10:49:23.997: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x33c4b7990e029c65bbb02d11935aeabab9bfe21bf8abca90b2a859706981cd46","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.997: eths Eth: New job #33c4b799 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.997: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xd9129bcf4291fa9c3248d9af33481aac26f97201753b9b49c943e9619a3bdd1a","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.997: eths Eth: New job #d9129bcf from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.997: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xb2656f7ab30f2ee4552e64128f5f303d297ee1e237cf8b1442c652816754ac0c","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.997: eths Eth: New job #b2656f7a from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.997: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xb6759a71251e35366784c03373218ad9f52af33d9168aa4f5ab55502ba3c6ef6","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.997: eths Eth: New job #b6759a71 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.997: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x3071678170b33aba34bb2c2ba9fdd95311231a43061d687d3b80c135640f7f10","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.997: eths Eth: New job #30716781 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.998: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x72124fec13b5a7b491004cae13139fd35e27da8ab4f36627853a954fed8aa733","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.998: eths Eth: New job #72124fec from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.998: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xd73a47514b8c109fa9b286917381f317d5780383b0f0045999999fcfef7c2d79","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.998: eths Eth: New job #d73a4751 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.998: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x470d2260876deefd4dd7894bc31f825539b2364eba8c32070caef2f24cdaa33e","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.998: eths Eth: New job #470d2260 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.998: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x5b95796773fa85c3d52700bda12d960d3185b786f06f61ae8a67d526a8e8bf94","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.998: eths Eth: New job #5b957967 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.998: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x1c1193869a6c46cf271f1d3dd5d904d150062b9ba21d171668aa9e6d0072413d","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.998: eths Eth: New job #1c119386 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.998: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xa559662e227c471faaa6aacafbae3fabf95225f042a66b0f9c263b0ec6176231","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.998: eths Eth: New job #a559662e from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.998: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xd034caa5d9887748c0fd7d3faa6495bd91642d08062c18ecb2479d2d22a3e082","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.998: eths Eth: New job #d034caa5 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.998: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x9bed0f1beb32cae7df3c3e96b541316dea6dedb05dd2074969766b1be590ebb8","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.998: eths Eth: New job #9bed0f1b from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.998: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x18ef39612c6e21aa1ebd620d1465094fc883390d3782787cabd3d7114063a29d","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.998: eths Eth: New job #18ef3961 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.998: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x164792bffc7bfc0b9e5a4e6e875d84846c0901c6a625d4993935d723e98b01ea","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.998: eths Eth: New job #164792bf from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.998: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x62ed419d99d775d03b62f873618e3946fe385581045136c882335808b8b9a5a0","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.998: eths Eth: New job #62ed419d from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.998: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xd4140cb243920c2aea6c8a02b414d143f820dd618b703a0f95e7f899b3abf74a","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.998: eths Eth: New job #d4140cb2 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.998: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x7b4d1282bed4c7ccf700a697b5fafd2df576d3d50859e596438b72f09a2e5e54","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.998: eths Eth: New job #7b4d1282 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.998: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x33d917295477462ac4f67d4a991a74cda92376ac4fe343cf88ff5a85b8065192","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.998: eths Eth: New job #33d91729 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.998: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xc904b73be9b3be61fcba07bad3521e794adab280b008031af7b30fd0a4b0d765","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.998: eths Eth: New job #c904b73b from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.998: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xd6064b53ae54b35cddf29d0af09b9b438a2a6bc642dac859c13ece9debbfa402","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.998: eths Eth: New job #d6064b53 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.998: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xaa44961f2f3ba26a4b59e98f497de0c50e5b203b71cfdbd032156fac5bc833d7","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.998: eths Eth: New job #aa44961f from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.998: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x227c615890836e30bba916b6bc89818efe32da70f0589b777b4d3c4c242380e0","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.998: eths Eth: New job #227c6158 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.998: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xc4ede85c241879428babca83794b249b56c1ceca9df694977612769cbd8299e4","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.998: eths Eth: New job #c4ede85c from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.998: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x24f96f3089122bbf0ffc9e5d48cee7af19caebf7c24665fb7d7503d366056fb5","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.999: eths Eth: New job #24f96f30 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.999: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xe58a23fb0068a4f0ad46b214ccb84e919eea96e4851fa0accd592a8dbae8f6dd","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.999: eths Eth: New job #e58a23fb from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.999: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xe90714006f188d541fa4ce9710391769eddb12e06d34623c25507163e327a3cd","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.999: eths Eth: New job #e9071400 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.999: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xcc5c57fc88c81f8de3b522568498aaa3a24a76dfd32b6983268b83782cc8b2d1","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.999: eths Eth: New job #cc5c57fc from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.999: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xe1b2a3b660f2f02c59ef78e94c81da02bdda3ec6d098a288435fcb6e67378cb7","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.999: eths Eth: New job #e1b2a3b6 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.999: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x704eaee6073471ce9123805d743d8902b79de8c1dfbe3cb845ce7053da188b16","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.999: eths Eth: New job #704eaee6 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.999: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xa1dc17bb324837e4ca9e5a33e7e0dba733e32c07264be18c238c99371b1ff926","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.999: eths Eth: New job #a1dc17bb from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.999: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xa44ce873164074b6dea6be3c4113f7cfcf533632457f3d2684b2593de3a9c199","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.999: eths Eth: New job #a44ce873 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.999: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xb2e7020d83d5bccd9bde4ce7a0c1cdb277e0d2b79ca883bb60271f4191041b61","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.999: eths Eth: New job #b2e7020d from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.999: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xe0679c3d46d5ff6de9dba10cb5c8e5974188d08c07760a7a3b9b3d6d8e616079","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.999: eths Eth: New job #e0679c3d from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.999: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x1854c923eb0661193d1037694a5ab9dd0fde1710904b0207aca1b90c69b63f3f","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.999: eths Eth: New job #1854c923 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.999: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x3f660b227e516a13f3bc82e864eca399a06c0de494ed25da06429b396cfb18da","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.999: eths Eth: New job #3f660b22 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.999: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x91da59f4f7e64cf6f4ac8125708e7398414d2243245ade45da144706237fca72","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.999: eths Eth: New job #91da59f4 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.999: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x6af4933bf67fde1bd1834b74b168b56076f5cb17f6ef9c3e58e96a2e9ce07a8f","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.999: eths Eth: New job #6af4933b from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.999: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x46a77248b398749df578f1f0cdbe242344d85a049fbfb67bc612dd8e1f0e1f9b","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.999: eths Eth: New job #46a77248 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.999: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xf96e77de3a1a658ccabaeea3199446bf8ef8040a828a9549ff624344f1c4105e","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.999: eths Eth: New job #f96e77de from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.999: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xd7b7b6fb411b1f87736ca2716116ae8a1dfc53ce725b400f697a59512325eb2c","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.999: eths Eth: New job #d7b7b6fb from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.999: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xc1b5c8de2fe6fe65dd1ff132212ec880b48684b9eb0b232112118a9e1b58d194","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:23.999: eths Eth: New job #c1b5c8de from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:23.999: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x10553dcb0081c2c60f7d67c89db101e5da6baab55acce604d3f475d9a56e44bf","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:24.000: eths Eth: New job #10553dcb from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:24.000: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xe614e575ad28ae230bd15dcbfb69ad788ef93b84e7e98812b61f289ed5019f15","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:24.000: eths Eth: New job #e614e575 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:24.528: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xa3661e7ee5519292ab1e51261d6de021d356ae1a0db71d29988b9741dbc1665d","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:24.528: eths Eth: New job #a3661e7e from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:24.528: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xac9c4a1dea281f521a27428b318d891ebbefd0678f5de372a846dca41bf92ef3","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:24.528: eths Eth: New job #ac9c4a1d from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:24.528: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x1e98e9163ad1aecaa01843b93069013c444e48ecdc55ef820df37aac0238ff9f","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:24.529: eths Eth: New job #1e98e916 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:24.529: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xd3338e81b131f10a96d6d7f803ca7715000dcf64813d2663d136cc29ff135f4c","0xd09cafdc923c7663a05c4d95f466f1327df3c869b79e546ba807a26ec89fd0d6","0x0000000089705f4136b4a59731680a88f8953030fdd7645e011abac9f387295d"]}
+2021.04.05:10:49:24.529: eths Eth: New job #d3338e81 from cn.sparkpool.com:3333; diff: 8000MH
+2021.04.05:10:49:26.158: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"002","params":[]}
+
+2021.04.05:10:49:26.234: hwmc GPU0: unable to get fan speed - Not Supported (3)
+2021.04.05:10:49:26.286: hwmc NVAPI error in NvapiWrapper.c:986 : -104
+2021.04.05:10:49:26.324: main  
+2021.04.05:10:49:26.324: main *** 0:01 *** 4/5 10:49 **************************************
+2021.04.05:10:49:26.324: main Eth: Mining ETH on cn.sparkpool.com:3333 for 0:01
+2021.04.05:10:49:26.324: main Eth: Accepted shares 0 (0 stales), rejected shares 0 (0 stales)
+2021.04.05:10:49:26.324: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.04.05:10:49:26.324: main Eth: Average speed (5 min): 21.882 MH/s
+2021.04.05:10:49:26.324: main Eth: Effective speed: 0.00 MH/s; at pool: 0.00 MH/s
+2021.04.05:10:49:26.324: main  
+2021.04.05:10:49:26.324: main GPU0: 64C 79W
+GPUs power: 78.7 W
+2021.04.05:10:49:26.727: main Eth speed: 24.599 MH/s, shares: 0/0/0, time: 0:01
+2021.04.05:10:49:30.057: eths Eth: Unable to read pool response: 信号灯超时时间已到
+2021.04.05:10:49:30.058: eths Eth: Reconnecting in 5 seconds...
+2021.04.05:10:49:35.059: unkn Eth: Connecting to ethash pool cn.sparkpool.com:3333 (proto: EthProxy)
+2021.04.05:10:49:46.089: eths Eth: Can't resolve host cn.sparkpool.com:3333 - 不知道这样的主机。
+2021.04.05:10:49:46.090: eths Eth: Reconnecting in 5 seconds...
+2021.04.05:10:49:51.092: unkn Eth: Connecting to ethash pool cn.sparkpool.com:3333 (proto: EthProxy)
+2021.04.05:10:49:51.093: eths Eth: Can't resolve host cn.sparkpool.com:3333 - 不知道这样的主机。
+2021.04.05:10:49:51.093: eths Eth: Giving up after 3 retries, switching to next pool
+2021.04.05:10:49:51.093: eths Eth: Reconnecting in 5 seconds...
+2021.04.05:10:49:56.096: unkn Eth: Connecting to ethash pool cn-backup.sparkpool.com:3333 (proto: EthProxy)
+2021.04.05:10:49:56.097: eths Eth: Can't resolve host cn-backup.sparkpool.com:3333 - 不知道这样的主机。
+2021.04.05:10:49:56.097: eths Eth: Reconnecting in 5 seconds...
+2021.04.05:10:49:56.342: hwmc GPU0: unable to get fan speed - Not Supported (3)
+2021.04.05:10:49:56.534: main GPU0: 64C 80W
+GPUs power: 79.6 W
+2021.04.05:10:50:01.099: unkn Eth: Connecting to ethash pool cn-backup.sparkpool.com:3333 (proto: EthProxy)
+2021.04.05:10:50:11.334: main  
+2021.04.05:10:50:11.334: main *** 0:02 *** 4/5 10:50 **************************************
+2021.04.05:10:50:11.334: main Eth: Mining ETH on >cn-backup.sparkpool.com:3333 for 0:00
+2021.04.05:10:50:11.334: main Eth: Accepted shares 0 (0 stales), rejected shares 0 (0 stales)
+2021.04.05:10:50:11.334: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.04.05:10:50:11.334: main Eth: Average speed (5 min): 23.361 MH/s
+2021.04.05:10:50:11.334: main Eth: Effective speed: 0.00 MH/s; at pool: 0.00 MH/s
+2021.04.05:10:50:11.334: main  
+2021.04.05:10:50:11.397: hwmc NVAPI error in NvapiWrapper.c:986 : -104
+2021.04.05:10:50:12.129: eths Eth: Can't resolve host cn-backup.sparkpool.com:3333 - 不知道这样的主机。
+2021.04.05:10:50:12.130: eths Eth: Reconnecting in 5 seconds...
+2021.04.05:10:50:17.131: unkn Eth: Connecting to ethash pool cn-backup.sparkpool.com:3333 (proto: EthProxy)
+2021.04.05:10:50:26.451: hwmc GPU0: unable to get fan speed - Not Supported (3)
+2021.04.05:10:50:26.610: main GPU0: 63C 79W
+GPUs power: 79.4 W
+2021.04.05:10:50:28.160: eths Eth: Can't resolve host cn-backup.sparkpool.com:3333 - 不知道这样的主机。
+2021.04.05:10:50:28.160: eths Eth: Giving up after 3 retries, switching to next pool
+2021.04.05:10:50:28.160: eths Eth: Reconnecting in 5 seconds...
+2021.04.05:10:50:33.162: unkn Eth: Connecting to ethash pool cn.sparkpool.com:3333 (proto: EthProxy)
+2021.04.05:10:50:44.211: eths Eth: Can't resolve host cn.sparkpool.com:3333 - 不知道这样的主机。
+2021.04.05:10:50:44.211: eths Eth: Reconnecting in 5 seconds...
+2021.04.05:10:50:49.213: unkn Eth: Connecting to ethash pool cn.sparkpool.com:3333 (proto: EthProxy)
+2021.04.05:10:50:49.214: eths Eth: Can't resolve host cn.sparkpool.com:3333 - 不知道这样的主机。
+2021.04.05:10:50:49.215: eths Eth: Reconnecting in 5 seconds...
+2021.04.05:10:50:54.218: unkn Eth: Connecting to ethash pool cn.sparkpool.com:3333 (proto: EthProxy)
+2021.04.05:10:50:54.219: eths Eth: Can't resolve host cn.sparkpool.com:3333 - 不知道这样的主机。
+2021.04.05:10:50:54.220: eths Eth: Giving up after 3 retries, switching to next pool
+2021.04.05:10:50:54.220: eths Eth: Reconnecting in 5 seconds...
+2021.04.05:10:50:56.399: main  
+2021.04.05:10:50:56.399: main *** 0:03 *** 4/5 10:50 **************************************
+2021.04.05:10:50:56.399: main Eth: Mining ETH on >cn-backup.sparkpool.com:3333 for 0:00
+2021.04.05:10:50:56.399: main Eth: Accepted shares 0 (0 stales), rejected shares 0 (0 stales)
+2021.04.05:10:50:56.399: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.04.05:10:50:56.399: main Eth: Average speed (5 min): 23.953 MH/s
+2021.04.05:10:50:56.399: main Eth: Effective speed: 0.00 MH/s; at pool: 0.00 MH/s
+2021.04.05:10:50:56.399: main  
+2021.04.05:10:50:56.458: hwmc GPU0: unable to get fan speed - Not Supported (3)
+2021.04.05:10:50:56.510: hwmc NVAPI error in NvapiWrapper.c:986 : -104
+2021.04.05:10:50:56.600: main GPU0: 64C 80W
+GPUs power: 79.7 W
+2021.04.05:10:50:59.221: unkn Eth: Connecting to ethash pool cn-backup.sparkpool.com:3333 (proto: EthProxy)
+2021.04.05:10:51:05.492: GPU0 Unable to submit ethash share - pool disconnected
+2021.04.05:10:51:10.251: eths Eth: Can't resolve host cn-backup.sparkpool.com:3333 - 不知道这样的主机。
+2021.04.05:10:51:10.252: eths Eth: Reconnecting in 5 seconds...

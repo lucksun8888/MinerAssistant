@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="libs/msbase.jar"/>
+	<classpathentry kind="lib" path="libs/mssqlserver.jar"/>
+	<classpathentry kind="lib" path="libs/msutil.jar"/>
+	<classpathentry kind="lib" path="libs/dom4j-2.0.2.jar"/>
+	<classpathentry kind="lib" path="libs/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="libs/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="libs/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="libs/commons-codec-1.5.jar"/>
+	<classpathentry kind="lib" path="libs/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="libs/junit-3.8.1.jar"/>
+	<classpathentry kind="lib" path="libs/log4j-1.2.13.jar"/>
+	<classpathentry kind="lib" path="libs/poi-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="libs/poi-examples-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="libs/poi-excelant-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="libs/poi-ooxml-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="libs/poi-ooxml-schemas-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="libs/poi-scratchpad-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="libs/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="libs/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="libs/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="libs/org.eclipse.swt.win32.win32.x86_64_3.111.0.v20190605-1801.jar"/>
+	<classpathentry kind="lib" path="libs/org.eclipse.jface_3.16.0.v20190528-0922.jar"/>
+	<classpathentry kind="lib" path="libs/org.eclipse.jface.databinding_1.9.0.v20190519-0933.jar"/>
+	<classpathentry kind="lib" path="libs/org.eclipse.jface.text_3.15.200.v20190519-2344.jar"/>
+	<classpathentry kind="lib" path="libs/org.eclipse.core.commands_3.9.400.v20190516-1358.jar"/>
+	<classpathentry kind="lib" path="libs/org.eclipse.equinox.common_3.10.400.v20190516-1504.jar"/>
+	<classpathentry kind="lib" path="swing2swt.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
